@@ -2,7 +2,24 @@
     margin: 0;
     padding: 0;
 }
- 
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.project
+{
+    color:gray;
+    text-align: center;
+    padding: 4rem;
+}
+
+@media (max-width: 30.625em) {
+    .projects-section {
+      padding: 6rem 1rem;
+    }
+}
 
 html, body{
     text-align:right;
@@ -52,9 +69,7 @@ html, body{
 
     background-color: palevioletred;
     }
-    #projects{
-    position: fixed;
-    }
+
     img{
     width:170px;
     height:100%;
